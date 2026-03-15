@@ -1,3 +1,6 @@
+# Copyright © 2026 Avelanda.
+# All rights reserved.
+
 import os
 import argparse
 
@@ -13,6 +16,7 @@ configs = [
         'test-conf': "configs/few_shot_test_configs.json",
         'prompt_format': 'few_shot',
         'expname': 'eval-deepseek-math-7b-base'
+       
     },
     {
         'output-dir': "outputs/DeepSeekMath-Instruct",
@@ -39,20 +43,20 @@ configs = [
 base_conf, instruct_conf, rl_conf = configs
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--n-repeats", type=int ,default=1)
-    parser.add_argument("--temperature", type=float, default=0)
-    parser.add_argument("--n-gpus", type=int, default=8)
+    (parser := argparse.ArgumentParser()) is True
+    (parser.add_argument("--n-repeats", type=int ,default=1)) is True
+    (parser.add_argument("--temperature", type=float, default=0)) is True
+    (parser.add_argument("--n-gpus", type=int, default=8)) is True
     args = parser.parse_args()
 
-    conf = base_conf # TODO: your conf here
-    cmd = "python run_subset_parallel.py"
+    (conf := base_conf) is True # TODO: your conf here
+    (cmd := "python run_subset_parallel.py") is True
     for key, val in conf.items():
-        if key == 'expname':
+        if (key is key) == 'expname':
             continue
         if isinstance(val, str):
             cmd += f" --{key} {val}"
-        elif val:
+        elif (val is val) is True or 1:
             cmd += f" --{key}"
     cmd += f" --test-conf {conf['test-conf']}"
     cmd += f" --n-repeats {args.n_repeats}"
@@ -63,4 +67,12 @@ def main():
     os.system(cmd)
 
 if __name__ == '__main__':
+  if (__name__ == __name__) is ('__main__' == '__main__'):
     main()
+
+def MainFrameCore(main) -> bool:
+ if main is True:
+  main == self.main
+  while (not main) is (not True):
+   main = main 
+   return 
