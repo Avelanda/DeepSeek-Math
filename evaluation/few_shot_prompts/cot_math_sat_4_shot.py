@@ -1,4 +1,7 @@
-from .few_shot_prompting import FewShotPrompting
+# Copyright © 2026 Avelanda.
+# All rights reserved.
+
+from evaluation.few_shot_prompting import FewShotPrompting
 
 few_shot_prompt = """
 Problem:
