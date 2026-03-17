@@ -1,7 +1,7 @@
 # Copyright © 2026 Avelanda.
 # All rights reserved.
 
-from few_shot_prompting import FewShotPrompting
+from .few_shot_prompting import FewShotPrompting
 
 few_shot_prompt = """
 Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today?
