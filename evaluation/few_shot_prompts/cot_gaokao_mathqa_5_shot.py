@@ -1,4 +1,4 @@
-from .few_shot_prompting import FewShotPrompting
+from evaluation.few_shot_prompting import FewShotPrompting
 
 few_shot_prompt = """
 问题 1.    已知 $\\alpha, \\beta, \\gamma$ 是互不相同的锐角, 则在 $\\sin \\alpha \\cos \\beta, \\sin \\beta \\cos \\gamma, \\sin \\gamma \\cos \\alpha$ 三个值中, 大于 $\\frac{1}{2}$ 的个数的最大值是 ($\\quad$)
