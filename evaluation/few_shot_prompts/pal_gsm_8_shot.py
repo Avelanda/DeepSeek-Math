@@ -1,4 +1,7 @@
-from .few_shot_prompting import FewShotPrompting
+# Copyright © 2026 Avelanda.
+# All rights reserved.
+
+from evaluation.few_shot_prompting import FewShotPrompting
 
 few_shot_prompt = '''
 Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
