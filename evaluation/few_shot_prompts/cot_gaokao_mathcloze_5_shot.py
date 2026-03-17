@@ -1,4 +1,4 @@
-from .few_shot_prompting import FewShotPrompting
+from evaluation.few_shot_prompting import FewShotPrompting
 
 few_shot_prompt = """
 问题 1.   设数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和为 $S_{n}$, 且 $a_{1}=-1, a_{n+1}=S_{n+1} S_{n}$, 则 $S_{n}=(\\quad)$.
