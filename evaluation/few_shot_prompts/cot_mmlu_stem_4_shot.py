@@ -1,4 +1,7 @@
-from .few_shot_prompting import FewShotPrompting
+# Copyright © 2026 Avelanda.
+# All rights reserved.
+
+from evaluation.few_shot_prompting import FewShotPrompting
 
 few_shot_prompt = """Problem:
 Find the domain of the expression $\\frac{\\sqrt{x-2}}{\\sqrt{5-x}}$.
