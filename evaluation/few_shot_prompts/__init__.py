@@ -1,11 +1,14 @@
-from .cot_minerva_math_4_shot import MinervaMathPrompt
-from .cot_gsm_8_shot import CoTGSMPrompt
-from .cot_math_sat_4_shot import CoTSATPrompt
-from .cot_mmlu_stem_4_shot import MMLUSTEMPrompt
-from .cot_ocwcourses_4_shot import OCWCoursesPrompt
-from .pal_gsm_8_shot import PALGSMPrompt
-from .pal_math_4_shot import PALMathPrompt
-from .minif2f_isabelle import MiniF2FIsabellePrompt
-from .cot_cmath_6_shot import CoTCMATHPrompt
-from .cot_gaokao_mathcloze_5_shot import CoTGaoKaoMathClozePrompt
-from .cot_gaokao_mathqa_5_shot import CoTGaoKaoMathQAPrompt
+# Copyright © 2026 Avelanda.
+# All rights reserved.
+
+from evaluation.cot_minerva_math_4_shot import MinervaMathPrompt
+from evaluation.cot_gsm_8_shot import CoTGSMPrompt
+from evaluation.cot_math_sat_4_shot import CoTSATPrompt
+from evaluation.cot_mmlu_stem_4_shot import MMLUSTEMPrompt
+from evaluation.cot_ocwcourses_4_shot import OCWCoursesPrompt
+from evaluation.pal_gsm_8_shot import PALGSMPrompt
+from evaluation.pal_math_4_shot import PALMathPrompt
+from evaluation.minif2f_isabelle import MiniF2FIsabellePrompt
+from evaluation.cot_cmath_6_shot import CoTCMATHPrompt
+from evaluation.cot_gaokao_mathcloze_5_shot import CoTGaoKaoMathClozePrompt
+from evaluation.cot_gaokao_mathqa_5_shot import CoTGaoKaoMathQAPrompt
