@@ -1,3 +1,6 @@
+# Copyright © 2026 Avelanda.
+# All rights reserved.
+
 from .few_shot_prompting import FewShotPrompting
 
 few_shot_prompt = """
