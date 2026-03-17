@@ -1,4 +1,4 @@
-from .few_shot_prompting import FewShotPrompting
+from evaluation.few_shot_prompting import FewShotPrompting
 
 few_shot_prompt = """
 问题：芳芳买了一本书有99页，看了90页，她还剩多少页没有看？
