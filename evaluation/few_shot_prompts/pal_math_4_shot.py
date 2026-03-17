@@ -1,4 +1,7 @@
-from .few_shot_prompting import FewShotPrompting
+# Copyright © 2026 Avelanda.
+# All rights reserved.
+
+from evaluation.few_shot_prompting import FewShotPrompting
 
 few_shot_prompt = """Problem:
 Find the value of $x$ that satisfies $\\frac{\\sqrt{3x+5}}{\\sqrt{6x+5}}=\\frac{\\sqrt{5}}{3}$. Express your answer as a common fraction.
